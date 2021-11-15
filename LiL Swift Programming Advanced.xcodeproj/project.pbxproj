@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		A7516E922742AA2800386D93 /* Operator Challenge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Operator Challenge.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A76B9C20273E99590047D217 /* Property Wrapper.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Property Wrapper.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A7F3E99A274272B800360EB3 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		A7F3E99B27427B6400360EB3 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -26,6 +27,7 @@
 			isa = PBXGroup;
 			children = (
 				A7F3E99A274272B800360EB3 /* SettingsManager.swift */,
+				A7516E922742AA2800386D93 /* Operator Challenge.playground */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
