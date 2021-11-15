@@ -37,3 +37,17 @@ extension Array {
 }
 
 ---names
+
+
+
+// Custom Infix Operator
+
+infix operator ÷
+
+extension Double {
+    static func ÷ (left: Double, right: Double) -> Double {
+        return left / right
+    }
+}
+
+99 ÷ 19
