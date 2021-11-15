@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		A7516E922742AA2800386D93 /* Operator Challenge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Operator Challenge.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A7516E932742B45200386D93 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A76B9C20273E99590047D217 /* Property Wrapper.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Property Wrapper.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A7F3E99A274272B800360EB3 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		A7F3E99B27427B6400360EB3 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -19,6 +20,7 @@
 			children = (
 				A76B9C20273E99590047D217 /* Property Wrapper.playground */,
 				A7F3E99B27427B6400360EB3 /* Operators.playground */,
+				A7516E932742B45200386D93 /* SettingsViewController.swift */,
 				A7F3E999274272A100360EB3 /* Challenges */,
 			);
 			sourceTree = "<group>";
