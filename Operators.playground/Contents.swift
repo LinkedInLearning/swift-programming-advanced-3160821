@@ -51,3 +51,19 @@ extension Double {
 }
 
 99 ÷ 19
+
+
+
+// Operator Overload
+
+struct Person {
+    var name: String
+    var age: Int
+    
+    static func += (person: inout Person, age: Int) {
+        person.age += age
+    }
+}
+
+var me = Person(name: "Thomas", age: 33)
+me += 2
