@@ -4,6 +4,8 @@
 struct SmallNumber {
     private var storedValue = 0
     
+    private let maximum: Int
+    
     var wrappedValue: Int {
         get {
             return storedValue
@@ -13,23 +15,24 @@ struct SmallNumber {
         }
     }
     
-    init(wrappedValue: Int) {
+    init(wrappedValue: Int, maximum: Int) {
+        self.maximum = maximum
         updateStoredValue(wrappedValue)
     }
     
     mutating private func updateStoredValue(_ newValue: Int) {
-        if newValue <= 9 {
+        if newValue <= maximum {
             storedValue = newValue
         } else {
-            storedValue = 9
+            storedValue = maximum
         }
     }
 }
 
 struct SmallRectangle {
-    @SmallNumber(wrappedValue: 4) var height: Int
+    @SmallNumber(wrappedValue: 4, maximum: 12) var height: Int
     
-    @SmallNumber var width: Int = 14
+    @SmallNumber(maximum: 12) var width: Int = 14
 }
 
 var myRectangle = SmallRectangle()
