@@ -9,21 +9,27 @@ struct SmallNumber {
             return storedValue
         }
         set {
-            if newValue <= 9 {
-                storedValue = newValue
-            } else {
-                storedValue = 9
-            }
+            updateStoredValue(newValue)
+        }
+    }
+    
+    init(wrappedValue: Int) {
+        updateStoredValue(wrappedValue)
+    }
+    
+    mutating private func updateStoredValue(_ newValue: Int) {
+        if newValue <= 9 {
+            storedValue = newValue
+        } else {
+            storedValue = 9
         }
     }
 }
 
 struct SmallRectangle {
-    @SmallNumber var height: Int
+    @SmallNumber(wrappedValue: 4) var height: Int
     
-    @SmallNumber var width: Int
+    @SmallNumber var width: Int = 14
 }
 
 var myRectangle = SmallRectangle()
-myRectangle.height = 4
-myRectangle.width = 14
