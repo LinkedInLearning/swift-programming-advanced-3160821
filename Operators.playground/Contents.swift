@@ -17,3 +17,23 @@ var name: String?
 var nameToUse: String
 
 nameToUse = name ?? defaultName
+
+
+
+// Custom Postfix- und Prefix-Operators
+
+var names = [
+    "Thomas",
+    "Michaela",
+    "Mark"
+]
+
+prefix operator ---
+
+extension Array {
+    static prefix func --- (array: inout Array<Element>) {
+        array.removeAll()
+    }
+}
+
+---names
