@@ -4,6 +4,8 @@
 struct SmallNumber {
     private var storedValue = 0
     
+    private(set) var projectedValue: Int
+    
     private let maximum: Int
     
     var wrappedValue: Int {
@@ -16,6 +18,7 @@ struct SmallNumber {
     }
     
     init(wrappedValue: Int, maximum: Int) {
+        projectedValue = wrappedValue
         self.maximum = maximum
         updateStoredValue(wrappedValue)
     }
@@ -36,3 +39,6 @@ struct SmallRectangle {
 }
 
 var myRectangle = SmallRectangle()
+
+myRectangle.width
+myRectangle.$width
