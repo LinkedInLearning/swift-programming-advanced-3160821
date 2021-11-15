@@ -7,6 +7,11 @@
 
 import UIKit
 
+class SettingsManager {
+    static let shared = SettingsManager()
+    var isUserLoggedIn = false
+}
+
 enum Section: Int {
     case AuthenticationSection
     case AboutSection
@@ -46,7 +51,7 @@ extension SettingsViewController {
         if SettingsManager.shared.isUserLoggedIn {
             // Log out user ...
         } else {
-            // TODO: Display login view
+            #warning("Display login view")
         }
     }
 }
