@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		A76B9C20273E99590047D217 /* Property Wrapper.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Property Wrapper.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A7F3E99A274272B800360EB3 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		A7F3E99B27427B6400360EB3 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -16,6 +17,7 @@
 			isa = PBXGroup;
 			children = (
 				A76B9C20273E99590047D217 /* Property Wrapper.playground */,
+				A7F3E99B27427B6400360EB3 /* Operators.playground */,
 				A7F3E999274272A100360EB3 /* Challenges */,
 			);
 			sourceTree = "<group>";
