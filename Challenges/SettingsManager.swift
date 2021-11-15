@@ -7,24 +7,28 @@
 
 import Foundation
 
+@propertyWrapper
+struct UserDefaultsStorage<Value> {
+    private let key: String
+    
+    var wrappedValue: Value? {
+        get {
+            UserDefaults.standard.object(forKey: key) as? Value? ?? nil
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: key)
+        }
+    }
+    
+    init(key: String) {
+        self.key = key
+    }
+}
+
 class SettingsManager {
     static let shared = SettingsManager()
     
-    var username: String? {
-        get {
-            UserDefaults.standard.string(forKey: "Username")
-        }
-        set {
-            UserDefaults.standard.set(newValue, forKey: "Username")
-        }
-    }
+    @UserDefaultsStorage(key: "Username") var username: String?
     
-    var getsNewsletter: Bool? {
-        get {
-            UserDefaults.standard.bool(forKey: "GetsNewsletter")
-        }
-        set {
-            UserDefaults.standard.set(newValue, forKey: "GetsNewsletter")
-        }
-    }
+    @UserDefaultsStorage(key: "GetsNewsletter") var getsNewsletter: Bool?
 }
