@@ -1,6 +1,6 @@
-# [DE-Kursname hier eintragen]
+# Swift-Programmierung für Fortgeschrittene
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs [COURSENAME]. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs Swift-Programmierung für Fortgeschrittene. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 [![COURSENAME](COURSEIMAGE)](LICOURSEURL)![Building a GraphQL Project with React.js][lil-thumbnail-url] 
 
@@ -36,7 +36,7 @@ Dieses Problem lösen Sie wie folgt:
 
 ### Autor
 
-**[Thomas Sillmann]**
+**Thomas Sillmann**
 
 _[Berufsbezeichnung hier eintragen]_
 
