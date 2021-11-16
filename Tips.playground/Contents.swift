@@ -23,3 +23,13 @@ let (firstName, lastName, age) = personTuple
 print("\(firstName) \(lastName) ist \(age) Jahre alt.")
 
 
+
+// Werte mittels Destructuring tauschen
+
+var firstPersonAge = 33
+var secondPersonAge = 19
+
+(firstPersonAge, secondPersonAge) = (secondPersonAge, firstPersonAge)
+
+firstPersonAge
+secondPersonAge
