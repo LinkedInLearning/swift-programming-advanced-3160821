@@ -12,6 +12,7 @@
 		A7516EA02742B7B900386D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7516E9F2742B7B900386D93 /* Assets.xcassets */; };
 		A7516EA32742B7B900386D93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7516EA22742B7B900386D93 /* Preview Assets.xcassets */; };
 		A7516EA72742B7BF00386D93 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7516E932742B45200386D93 /* SettingsViewController.swift */; };
+		A7F0F44A274391D400F11D04 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0F449274391D400F11D04 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A7516E9F2742B7B900386D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7516EA22742B7B900386D93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A76B9C20273E99590047D217 /* Property Wrapper.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Property Wrapper.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A7F0F449274391D400F11D04 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		A7F3E99A274272B800360EB3 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 		A7F3E99B27427B6400360EB3 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 				A76B9C20273E99590047D217 /* Property Wrapper.playground */,
 				A7F3E99B27427B6400360EB3 /* Operators.playground */,
 				A7516E932742B45200386D93 /* SettingsViewController.swift */,
+				A7F0F449274391D400F11D04 /* Calculator.swift */,
 				A7F3E999274272A100360EB3 /* Challenges */,
 				A7516E9A2742B7B800386D93 /* LiL Swift Programming Advanced */,
 				A7516E992742B7B800386D93 /* Products */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7516E9E2742B7B800386D93 /* ContentView.swift in Sources */,
+				A7F0F44A274391D400F11D04 /* Calculator.swift in Sources */,
 				A7516E9C2742B7B800386D93 /* LiL_Swift_Programming_AdvancedApp.swift in Sources */,
 				A7516EA72742B7BF00386D93 /* SettingsViewController.swift in Sources */,
 			);
