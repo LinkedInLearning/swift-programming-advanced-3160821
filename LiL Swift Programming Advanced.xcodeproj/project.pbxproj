@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A70D814C274399F20019BCF4 /* Tips.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tips.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A7516E922742AA2800386D93 /* Operator Challenge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Operator Challenge.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A7516E932742B45200386D93 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A7516E982742B7B800386D93 /* LiL Swift Programming Advanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiL Swift Programming Advanced.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +73,7 @@
 			children = (
 				A76B9C20273E99590047D217 /* Property Wrapper.playground */,
 				A7F3E99B27427B6400360EB3 /* Operators.playground */,
+				A70D814C274399F20019BCF4 /* Tips.playground */,
 				A7516E932742B45200386D93 /* SettingsViewController.swift */,
 				A7F0F449274391D400F11D04 /* Calculator.swift */,
 				A7F3E999274272A100360EB3 /* Challenges */,
