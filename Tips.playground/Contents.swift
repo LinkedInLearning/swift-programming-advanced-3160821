@@ -11,3 +11,15 @@ func average(_ values: Double...) -> Double {
 }
 
 let result = average(19, 99, 119)
+
+
+
+// Tuple mittels Destructuring auslesen
+
+let personTuple = ("Thomas", "Sillmann", 33)
+
+let (firstName, lastName, age) = personTuple
+
+print("\(firstName) \(lastName) ist \(age) Jahre alt.")
+
+
