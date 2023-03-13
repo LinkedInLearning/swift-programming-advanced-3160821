@@ -2,9 +2,9 @@
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs Swift-Programmierung für Fortgeschrittene. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-[![COURSENAME](COURSEIMAGE)](LICOURSEURL)![Building a GraphQL Project with React.js][lil-thumbnail-url] 
+![COURSENAME][lil-thumbnail-url] 
 
-[COURSEDESCRIPTION]
+Apple's Programmiersprache Swift verfügt über einige spannende Features, die vor allem bereits erfahrenen Entwicklern zugutekommen und deren Programmieralltag deutlich vereinfachen: Lernen Sie unter anderem alles Wichtige zum Einsatz von Property Wrappern, wie Sie eigene Operatoren erstellen und nutzen, und sehen Sie, was sich hinter Variadic Parameters und Destructuring verbirgt. Erkennen Sie auch, was eine gelungene Dokumentation des eigenen Quellcodes auszeichnet. Mit Hilfe von Code-Challenges am Ende eines Kapitels können Sie das Erlernte sofort testen und Ihre Lösung auch gleich mit der angebotenen Solution vergleichen.
 
 ## Anleitung
 
@@ -43,6 +43,6 @@ _[Berufsbezeichnung hier eintragen]_
 Sehen Sie sich andere Kurse des Autors auf <<<<Link aktualisieren>>>> [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors?u=104) an.
 
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3160821/3160821-1647253332637-16x9.jpg
 	
 	
