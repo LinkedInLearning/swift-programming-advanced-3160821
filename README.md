@@ -30,17 +30,16 @@ Dieses Problem lösen Sie wie folgt:
 ## Installation
 
 1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
+   - Xcode (ab Version 13)
 2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
 
 ### Autor
 
 **Thomas Sillmann**
 
-_[Berufsbezeichnung hier eintragen]_
+_Selbstständiger Autor und App-Entwickler_
 
-Sehen Sie sich andere Kurse des Autors auf <<<<Link aktualisieren>>>> [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors?u=104) an.
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/thomas-sillmann) an.
 
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
 [lil-thumbnail-url]: https://cdn.lynda.com/course/3160821/3160821-1647253332637-16x9.jpg
